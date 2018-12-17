@@ -13,6 +13,6 @@ sudo brctl addif br0 eno1
 sudo ifconfig br0 up
 sudo ifconfig br0 <ip-for-bridge/you-physical-machine> #assign an ip which does not conflict with your physical network if you are a noob like me
 
-sudo route add default gw 192.168.1.1
+sudo route add default gw <default-gateway_ip> #ip of your GNS3 router closest to your cloud device (which represents you rlinux host)
 
 sudo brctl show
