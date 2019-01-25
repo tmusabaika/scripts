@@ -1,0 +1,3 @@
+# Scripts
+A collection of scripts for my journey learning automation with Linux, Python, Ansible, telnetlib....
+For sample usage check out https://www.linkedin.com/pulse/ansible-gns3-automating-your-cisco-ios-lab-from-linux-musabaika
